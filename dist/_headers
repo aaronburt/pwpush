@@ -1,2 +1,3 @@
-/*.css
+/*
   Access-Control-Allow-Origin: *
+  Content-Security-Policy: default-src 'none'; script-src 'self' 'unsafe-inline' https://pwpusher.aaronburt.co.uk; style-src 'self' 'unsafe-inline' https://pwpush.aaronburt.co.uk; connect-src https://pwpusher.aaronburt.co.uk; img-src 'self' data:; base-uri 'none'; form-action 'none';
