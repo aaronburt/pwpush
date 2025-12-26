@@ -1,12 +1,13 @@
 :root {
-    --bg: #111827;
-    --card: #1f2937;
-    --text: #f3f4f6;
-    --text-muted: #9ca3af;
-    --accent: #3b82f6;
-    --accent-hover: #2563eb;
-    --error: #ef4444;
-    --success: #10b981;
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f8fafc;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --accent-hover: #93c5fd;
+    --error: #f87171;
+    --success: #4ade80;
+    --border: #334155;
 }
 
 body {
@@ -21,21 +22,28 @@ body {
     padding: 20px;
 }
 
+#secret-input {
+    font-size: 1rem;
+    min-height: 75px;
+    max-height: 200px;
+    overflow-y: hidden;
+}
+
 .container {
     background-color: var(--card);
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
     width: 100%;
     max-width: 420px;
     text-align: center;
 }
 
-h1 { margin-top: 0; font-size: 1.5rem; margin-bottom: 0.5rem; }
-p.subtitle { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+h1 { margin-top: 0; font-size: 2rem; margin-bottom: 0.5rem; }
+p.subtitle { color: var(--text-muted); font-size: 1rem; margin-bottom: 1.5rem; }
 
 .form-group { margin-bottom: 1rem; text-align: left; }
-label { display: block; font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+label { display: block; font-size: 0.9; color: var(--text-muted); margin-bottom: 0.4rem; }
 
 input, textarea {
     width: 100%;
@@ -88,7 +96,7 @@ button:hover { background-color: var(--accent-hover); }
     min-height: 1.2rem;
 }
 
-.small-note { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+.small-note { text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
 
 .link-container {
     margin-top: 1rem;
