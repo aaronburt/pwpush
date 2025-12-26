@@ -1,0 +1,24 @@
+{
+  "name": "pwpusher",
+  "version": "1.0.0",
+  "description": "**Client-side secure message sharing (AES-GCM)**",
+  "main": "index.js",
+  "scripts": {
+    "build": "minify ./src/index.html > ./dist/index.html && minify ./src/style.css > ./dist/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronburt/pwpush.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aaronburt/pwpush/issues"
+  },
+  "homepage": "https://github.com/aaronburt/pwpush#readme",
+  "devDependencies": {
+    "minify": "^14.1.0"
+  }
+}
